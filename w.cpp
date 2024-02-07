@@ -1,6 +1,12 @@
-#include<bits/stdc++.h>
+#include<iostream>
+#include<conio.h>
+#include<string>
 using namespace std;
-
-int main(){
-    
+int main()
+{
+string s;
+cin>>s;
+s[0]=towupper(s[0]);
+cout<<s;
+getch();
 }
